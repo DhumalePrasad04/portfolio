@@ -32,7 +32,7 @@ st.title("Prasad's Portfolio")
 
 with open(css) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
-with open(resume) as f:
+with open(resume,"rb") as f:
     pdf=f.read()
 
 
