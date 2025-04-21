@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 from pathlib import Path
 import base64
 
@@ -98,9 +97,9 @@ achievements = [
 
 # Skills
 skills = {
-    "Programming Languages": ["Python", "Java", "JavaScript", "C++"],
-    "AI/ML": ["PyTorch", "TensorFlow", "scikit-learn", "NLP"],
-    "Web Development": ["HTML/CSS", "React", "Flask", "Streamlit"],
+    "Programming Languages": ["Python", "Java", "C"],
+    "AI/ML": [ "scikit-learn", "NLP"],
+    "Web Development": ["FastApi", "Flask", "Streamlit"],
     "Data Analysis": ["Pandas", "NumPy", "Matplotlib", "SQL"],
     "Tools": ["Git", "Docker", "VS Code", "Jupyter"]
 }
