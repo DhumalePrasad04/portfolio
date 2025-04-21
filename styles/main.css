@@ -89,11 +89,12 @@ body {
 .download-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    color:red;
 }
 
 /* Social media section */
 .social-media-section {
-    background-color: white;
+    background-color: linear-gradient(45deg, #6e8efb, #a777e3);
     border-radius: 10px;
     padding: 25px;
     margin-bottom: 30px;
@@ -101,7 +102,7 @@ body {
 }
 
 .social-media-title {
-    color: #333;
+    color: linear-gradient(45deg, #6e8efb, #a777e3) ;
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 20px;
@@ -138,7 +139,7 @@ body {
     align-items: center;
     padding: 12px 20px;
     border-radius: 8px;
-    background-color: #f8f9fa;
+    background-color: linear-gradient(45deg, #6e8efb, #a777e3);
     transition: all 0.3s ease;
     text-decoration: none;
     color: #333;
