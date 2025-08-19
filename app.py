@@ -5,7 +5,7 @@ import base64
 # Path Setup
 current_path = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_path = current_path/"styles"/"main.css"
-resume_path = current_path/"assets"/"resume.pdf"
+resume_path = current_path/"assets"/"Dhumale_Prasad_Resume.pdf"
 profile_pic_path = current_path/"assets"/"profile pic.jpg"
 
 # Configuration
